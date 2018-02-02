@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox Component should render <SearchBox /> 1`] = `
+<div
+  className="sc-bwzfXH glFDba"
+>
+  <input
+    className="sc-bdVaJa hWvyqe"
+    placeholder="Search here"
+    type="text"
+  />
+  <div>
+    This search is case sensitive
+  </div>
+</div>
+`;

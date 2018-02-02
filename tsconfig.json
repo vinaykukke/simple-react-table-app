@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "jsx": "Preserve",
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "sourceMap": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "Redux/*": ["src/client/redux/*"],
+      "Components/*": ["src/client/components/*"],
+      "Scenes/*": ["src/client/scenes/*"],
+      "Constants/*": ["src/client/constants/*"],
+      "Types/*": ["src/client/types/*"],
+      "Hoc/*": ["src/client/hoc/*"]
+    },
+    "target": "ESNext"
+  }
+}
